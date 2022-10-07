@@ -13,7 +13,7 @@ const ingredients = [
 // Добавит элементу класс item.
 // После чего вставит все <li> за одну операцию в список ul#ingredients.
 
-const ingredientsContainerRef = document.querySelector("ul#ingredients");
+const ingredientsContainerRef = document.querySelector("#ingredients");
 
 const createIngredientsRef = (ingredients) => {
   return ingredients.map((ingredient) => {
